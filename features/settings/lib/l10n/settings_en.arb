@@ -679,5 +679,9 @@
   "amountInputBitcoin": "Bitcoin",
   "@amountInputBitcoin": {},
   "amountInputTitle": "Enter amounts in",
-  "@amountInputTitle": {}
+  "@amountInputTitle": {},
+  "supportWhatsAppDefaultMessage": "Hey there! I need some help with Bitcoin Jungle Wallet",
+  "@supportWhatsAppDefaultMessage": {
+    "description": "Default message pre-filled in WhatsApp when the user contacts support"
+  }
 }

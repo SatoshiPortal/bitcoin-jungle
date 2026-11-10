@@ -32,7 +32,7 @@
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
   "appStartupErrorMessage": "Programu imeshindwa kuanza. Jaribu kuifunga kabisa na kuanzisha upya. Ikiwa tatizo linaendelea, wasiliana na usaidizi na shiriki logi zako.",
-  "appStartupContactSupportMessage": "Wasiliana na usaidizi kupitia app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Wasiliana na msaada kupitia WhatsApp",
   "logsShareOptionExport": "Hamisha",
   "logsExportedMessage": "Kumbukumbu zimehamiishwa kwa mafanikio",
   "logsExportFailedMessage": "Imeshindwa kuhamisha kumbukumbu",

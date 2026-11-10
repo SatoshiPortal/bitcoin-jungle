@@ -51,7 +51,7 @@
   "@appInitErrorDetailsToggle": {
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
-  "appStartupContactSupportMessage": "Ota yhteyttä tukeen osoitteessa app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Ota yhteyttä tukeen WhatsAppissa",
   "logsShareOptionExport": "Vie",
   "logsExportedMessage": "Lokit viety onnistuneesti",
   "logsExportFailedMessage": "Lokien vienti epäonnistui"

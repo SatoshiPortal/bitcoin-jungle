@@ -311,5 +311,6 @@
   "notificationsTitle": "Bildirimler",
   "openSystemSettings": "Sistem ayarlarını aç",
   "permissionsTitle": "İzinler",
-  "settingsSearchPermissionsKeywords": "bildirimler|arka plan görevleri|pil|uyarılar"
+  "settingsSearchPermissionsKeywords": "bildirimler|arka plan görevleri|pil|uyarılar",
+  "supportWhatsAppDefaultMessage": "Merhaba! Bitcoin Jungle Wallet ile ilgili yardıma ihtiyacım var"
 }

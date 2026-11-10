@@ -158,5 +158,6 @@
   "notificationsTitle": "通知",
   "openSystemSettings": "打开系统设置",
   "permissionsTitle": "权限",
-  "settingsSearchPermissionsKeywords": "通知|后台任务|电池|提醒"
+  "settingsSearchPermissionsKeywords": "通知|后台任务|电池|提醒",
+  "supportWhatsAppDefaultMessage": "你好！我需要 Bitcoin Jungle Wallet 方面的帮助"
 }

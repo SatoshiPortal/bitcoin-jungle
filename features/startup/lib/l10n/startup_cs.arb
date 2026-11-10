@@ -64,7 +64,7 @@
   "@appInitErrorDetailsToggle": {
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
-  "appStartupContactSupportMessage": "Kontaktujte podporu na app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Kontaktujte podporu přes WhatsApp",
   "logsShareOptionExport": "Exportovat",
   "logsExportedMessage": "Záznamy byly úspěšně exportovány",
   "logsExportFailedMessage": "Export záznamů se nezdařil",

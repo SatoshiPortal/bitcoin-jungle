@@ -128,5 +128,6 @@
   "notificationsTitle": "შეტყობინებები",
   "openSystemSettings": "სისტემის პარამეტრების გახსნა",
   "permissionsTitle": "ნებართვები",
-  "settingsSearchPermissionsKeywords": "შეტყობინებები|ფონური ამოცანები|ბატარეა|გაფრთხილებები"
+  "settingsSearchPermissionsKeywords": "შეტყობინებები|ფონური ამოცანები|ბატარეა|გაფრთხილებები",
+  "supportWhatsAppDefaultMessage": "გამარჯობა! Bitcoin Jungle Wallet-თან დახმარება მჭირდება"
 }

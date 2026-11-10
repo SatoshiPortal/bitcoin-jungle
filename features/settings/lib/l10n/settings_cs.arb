@@ -311,5 +311,6 @@
   "notificationsTitle": "Oznámení",
   "openSystemSettings": "Otevřít nastavení systému",
   "permissionsTitle": "Oprávnění",
-  "settingsSearchPermissionsKeywords": "oznámení|úlohy na pozadí|baterie|upozornění"
+  "settingsSearchPermissionsKeywords": "oznámení|úlohy na pozadí|baterie|upozornění",
+  "supportWhatsAppDefaultMessage": "Dobrý den! Potřebuji pomoc s Bitcoin Jungle Wallet"
 }

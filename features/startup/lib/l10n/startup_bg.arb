@@ -49,7 +49,7 @@
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
   "appStartupErrorMessage": "Приложението не успя да стартира. Опитайте да го затворите напълно и да го рестартирате. Ако грешката продължи, свържете се с поддръжка и споделете логовете си.",
-  "appStartupContactSupportMessage": "Свържете се с поддръжката на app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Свържете се с поддръжката в WhatsApp",
   "logsShareOptionExport": "Експортиране",
   "logsExportedMessage": "Журналите са експортирани успешно",
   "logsExportFailedMessage": "Неуспешно експортиране на журналите",

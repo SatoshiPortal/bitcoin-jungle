@@ -342,5 +342,6 @@
   "notificationsTitle": "सूचनाएँ",
   "openSystemSettings": "सिस्टम सेटिंग्स खोलें",
   "permissionsTitle": "अनुमतियाँ",
-  "settingsSearchPermissionsKeywords": "सूचनाएँ|बैकग्राउंड कार्य|बैटरी|अलर्ट"
+  "settingsSearchPermissionsKeywords": "सूचनाएँ|बैकग्राउंड कार्य|बैटरी|अलर्ट",
+  "supportWhatsAppDefaultMessage": "नमस्ते! मुझे Bitcoin Jungle Wallet में मदद चाहिए"
 }

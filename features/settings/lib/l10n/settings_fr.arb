@@ -186,5 +186,6 @@
   "permissionsTitle": "Autorisations",
   "settingsSearchPermissionsKeywords": "notifications|tâches en arrière-plan|batterie|alertes",
   "amountInputBitcoin": "Bitcoin",
-  "amountInputTitle": "Saisir les montants en"
+  "amountInputTitle": "Saisir les montants en",
+  "supportWhatsAppDefaultMessage": "Bonjour ! J'ai besoin d'aide avec Bitcoin Jungle Wallet"
 }

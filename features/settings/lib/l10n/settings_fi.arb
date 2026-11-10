@@ -159,5 +159,6 @@
   "notificationsTitle": "Ilmoitukset",
   "openSystemSettings": "Avaa järjestelmäasetukset",
   "permissionsTitle": "Käyttöoikeudet",
-  "settingsSearchPermissionsKeywords": "ilmoitukset|taustatehtävät|akku|hälytykset"
+  "settingsSearchPermissionsKeywords": "ilmoitukset|taustatehtävät|akku|hälytykset",
+  "supportWhatsAppDefaultMessage": "Hei! Tarvitsen apua Bitcoin Jungle Walletin kanssa"
 }

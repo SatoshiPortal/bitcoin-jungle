@@ -196,5 +196,6 @@
   "permissionsTitle": "Permisos",
   "settingsSearchPermissionsKeywords": "notificaciones|tareas en segundo plano|batería|alertas",
   "amountInputBitcoin": "Bitcoin",
-  "amountInputTitle": "Introducir importes en"
+  "amountInputTitle": "Introducir importes en",
+  "supportWhatsAppDefaultMessage": "¡Hola! Necesito ayuda con Bitcoin Jungle Wallet"
 }

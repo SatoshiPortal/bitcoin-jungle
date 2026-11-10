@@ -155,5 +155,6 @@
   "notificationsTitle": "Benachrichtigungen",
   "openSystemSettings": "Systemeinstellungen öffnen",
   "permissionsTitle": "Berechtigungen",
-  "settingsSearchPermissionsKeywords": "Benachrichtigungen|Hintergrundaufgaben|Akku|Hinweise"
+  "settingsSearchPermissionsKeywords": "Benachrichtigungen|Hintergrundaufgaben|Akku|Hinweise",
+  "supportWhatsAppDefaultMessage": "Hallo! Ich brauche Hilfe mit Bitcoin Jungle Wallet"
 }

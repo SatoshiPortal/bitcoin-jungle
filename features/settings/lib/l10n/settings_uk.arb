@@ -158,5 +158,6 @@
   "notificationsTitle": "Сповіщення",
   "openSystemSettings": "Відкрити налаштування системи",
   "permissionsTitle": "Дозволи",
-  "settingsSearchPermissionsKeywords": "сповіщення|фонові завдання|батарея|оповіщення"
+  "settingsSearchPermissionsKeywords": "сповіщення|фонові завдання|батарея|оповіщення",
+  "supportWhatsAppDefaultMessage": "Вітаю! Мені потрібна допомога з Bitcoin Jungle Wallet"
 }

@@ -73,7 +73,7 @@
   "@logsDeletedMessage": {
     "description": "Confirmation message when logs are deleted"
   },
-  "appStartupContactSupportMessage": "app.bullbitcoin.com/support এ সাপোর্টের সাথে যোগাযোগ করুন",
+  "appStartupContactSupportMessage": "WhatsApp-এ সহায়তার সঙ্গে যোগাযোগ করুন",
   "logsShareOptionExport": "এক্সপোর্ট করুন",
   "logsExportedMessage": "লগ সফলভাবে এক্সপোর্ট হয়েছে",
   "logsExportFailedMessage": "লগ এক্সপোর্ট করতে ব্যর্থ হয়েছে"
