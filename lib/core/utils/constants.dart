@@ -11,7 +11,7 @@ class Device {
 class SettingsConstants {
   static const webSupportLink = 'https://wa.me/19704505406';
   static const githubSupportLink =
-      'https://github.com/SatoshiPortal/bullbitcoin-mobile';
+      'https://github.com/SatoshiPortal/bitcoin-jungle';
   static const termsAndConditionsLink = 'https://wallet.bullbitcoin.com/terms';
   static const exchangeTermsAndConditionsLink =
       'https://www.bullbitcoin.com/terms';
