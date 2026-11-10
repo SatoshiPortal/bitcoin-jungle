@@ -9,8 +9,7 @@ class Device {
 }
 
 class SettingsConstants {
-  static const telegramSupportLink = 'https://t.me/+gUHV3ZcQ-_RmZDdh';
-  static const webSupportLink = 'https://app.bullbitcoin.com/support';
+  static const webSupportLink = 'https://wa.me/19704505406';
   static const githubSupportLink =
       'https://github.com/SatoshiPortal/bullbitcoin-mobile';
   static const termsAndConditionsLink = 'https://wallet.bullbitcoin.com/terms';
