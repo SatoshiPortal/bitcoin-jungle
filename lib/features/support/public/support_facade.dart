@@ -1,9 +1,8 @@
 import 'dart:async';
 
+import 'package:bb_mobile/core/utils/build_context_x.dart';
 import 'package:bb_mobile/core/utils/constants.dart';
-import 'package:bb_mobile/features/exchange_support_chat/public/exchange_support_chat_facade.dart';
 import 'package:flutter/widgets.dart';
-import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// What "contact support" means in this app.
@@ -14,20 +13,19 @@ import 'package:url_launcher/url_launcher.dart';
 class SupportFacade {
   const SupportFacade._();
 
-  /// Opens Bull Bitcoin support from [context].
+  /// Opens Bitcoin Jungle support on WhatsApp from [context].
   ///
-  /// Inside the router, opens the exchange support chat, pre-filled with
-  /// [message] when one is given; the chat route shows its login screen to a
-  /// logged-out user. Outside the router (startup and init-error screens, which
-  /// render before any route), opens the web support page instead.
+  /// The chat is pre-filled with [message] when one is given, otherwise with a
+  /// default greeting in the user's language. Works the same inside and outside
+  /// the router, so the startup and init-error screens behave like the rest.
   static void contactSupport(BuildContext context, {String? message}) {
-    if (GoRouter.maybeOf(context) != null) {
-      ExchangeSupportChatFacade.open(context, initialMessage: message);
-      return;
-    }
+    final text = message ?? context.loc.supportWhatsAppDefaultMessage;
     unawaited(
       launchUrl(
-        Uri.parse(SettingsConstants.webSupportLink),
+        Uri.parse(
+          '${SettingsConstants.webSupportLink}'
+          '?text=${Uri.encodeComponent(text)}',
+        ),
         mode: LaunchMode.externalApplication,
       ),
     );

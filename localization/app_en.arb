@@ -12750,7 +12750,7 @@
   "@onboardingAdvancedOptionsDone": {
     "description": "Button to dismiss the onboarding advanced options screen"
   },
-  "appStartupContactSupportMessage": "Contact support at app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Contact support on WhatsApp",
   "@appStartupContactSupportMessage": {
     "description": "Message shown on the app startup error screen pointing to support"
   },
@@ -15753,5 +15753,9 @@
   "appStartupRestoreMismatch": "This recovery phrase belongs to another wallet. Enter the phrase of the wallet on this device.",
   "@appStartupRestoreMismatch": {
     "description": "App startup restore: the entered recovery phrase does not match the wallet whose secret is missing"
+  },
+  "supportWhatsAppDefaultMessage": "Hey there! I need some help with Bitcoin Jungle Wallet",
+  "@supportWhatsAppDefaultMessage": {
+    "description": "Default message pre-filled in WhatsApp when the user contacts support"
   }
 }

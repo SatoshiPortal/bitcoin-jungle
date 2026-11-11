@@ -4116,7 +4116,7 @@
   "onboardingAdvancedOptionsCustomRecoverbull": "Servidor Recoverbull personalizado",
   "onboardingAdvancedOptionsFooter": "Puedes cambiar estos ajustes más tarde en los ajustes de la aplicación",
   "onboardingAdvancedOptionsDone": "Listo",
-  "appStartupContactSupportMessage": "Contacta con soporte en app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Contacta con soporte por WhatsApp",
   "importWalletBitboxAndroidOnly": "BitBox solo es compatible con Android",
   "pinCodeSaveError": "No se pudo guardar tu PIN. Por favor, inténtalo de nuevo.",
   "pinCodeDeleteError": "No se pudo eliminar tu PIN. Por favor, inténtalo de nuevo.",
@@ -4845,5 +4845,6 @@
   "sellPayoutBalance": "Agregar a mi saldo de cuenta",
   "sellPayoutSepaDescription": "Los retiros aparecen como enviados por Leonod",
   "sellPayoutTitle": "Seleccionar destinatario",
-  "sellPayoutNewBadge": "NUEVO"
+  "sellPayoutNewBadge": "NUEVO",
+  "supportWhatsAppDefaultMessage": "¡Hola! Necesito ayuda con Bitcoin Jungle Wallet"
 }
