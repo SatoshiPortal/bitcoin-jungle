@@ -25,6 +25,7 @@ import 'package:bull_ui/bull_ui.dart' show BullSnackBar;
 import 'package:settings/settings.dart';
 import 'package:bull_quick_actions/bull_quick_actions.dart';
 import 'package:btc_map/btc_map.dart';
+import 'package:add_place/add_place.dart';
 import 'package:bb_mobile/features/wallet/presentation/network_wallet_setup_cubit.dart';
 
 import 'package:bb_mobile/localization/app_localizations_context.dart';
@@ -355,6 +356,8 @@ class AppRouter {
       ),
       ...LabelEditorFeature.mount(labels: () => locator<Labels>()).routes,
       BtcMapFeature.route,
+      // Set submitUrl to the proxy to BTC Map once it exists.
+      ...AddPlaceFeature.mount(submitUrl: null).routes,
     ],
     errorBuilder: (context, state) => const RouteErrorScreen(),
   );

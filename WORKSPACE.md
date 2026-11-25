@@ -11,6 +11,7 @@ An arrow points from the consumer to its direct dependency. Each graph shows dec
 ```mermaid
 flowchart TD
   pkg_access["access"]
+  pkg_add_place["add_place"]
   pkg_address_view["address_view"]
   pkg_all_seed_view["all_seed_view"]
   pkg_announcements["announcements"]
@@ -43,6 +44,7 @@ flowchart TD
   pkg_transactions["transactions"]
   pkg_wallet_import["wallet_import"]
   pkg_wizard["wizard"]
+  pkg_add_place --> pkg_btc_map
   pkg_address_view --> pkg_label_editor
   pkg_address_view --> pkg_scanning
   pkg_address_view --> pkg_silent
@@ -261,6 +263,7 @@ flowchart TD
 | Feature | Runtime packages | Dev packages |
 | --- | --- | --- |
 | [`access`](features/access/pubspec.yaml) | `bull_logger`, `bull_ui`, `primitives`, `secrets` | `legacy_storage` |
+| [`add_place`](features/add_place/pubspec.yaml) | `bull_ui`, `primitives` | — |
 | [`address_view`](features/address_view/pubspec.yaml) | `bull_logger`, `bull_payjoin`, `bull_ui`, `labels`, `mempool`, `preferences`, `primitives`, `satoshifier`, `secrets`, `sync` | — |
 | [`all_seed_view`](features/all_seed_view/pubspec.yaml) | `bull_logger`, `bull_ui`, `preferences`, `primitives`, `screen_privacy`, `secrets`, `swaps` | — |
 | [`announcements`](features/announcements/pubspec.yaml) | `bull_ui`, `legacy_storage`, `primitives`, `secrets` | — |

@@ -17,6 +17,7 @@ import 'package:bb_mobile/generated/novlang/novlang_settings_localizations.dart'
 import 'package:network/setup.dart' show NetworkLocalizations;
 import 'package:bull_exchange/bull_exchange.dart' show ExchangeSessionScope;
 import 'package:btc_map/btc_map.dart';
+import 'package:add_place/add_place.dart';
 import 'package:bull_quick_actions/bull_quick_actions.dart';
 import 'package:bull_recoverbull/bull_recoverbull.dart';
 import 'package:mempool/mempool.dart';
@@ -207,6 +208,7 @@ class _BullBitcoinWalletAppState extends State<BullBitcoinWalletApp> {
                         LogsLocalizations.delegate,
                         NetworkLocalizations.delegate,
                         BtcMapFeature.localizationsDelegate,
+                        AddPlaceFeature.localizationsDelegate,
                         BackupsFeature.localizationsDelegate,
                         NovlangQuickActionsLocalizationsDelegate(
                           novlangPolicy,
