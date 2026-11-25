@@ -8,11 +8,14 @@ import 'package:btc_map/src/presentation/map_localizations_x.dart';
 import 'package:btc_map/src/presentation/map_cubit.dart';
 import 'package:btc_map/src/presentation/map_failure_l10n.dart';
 import 'package:btc_map/src/presentation/map_state.dart';
+import 'package:btc_map/src/ui/map_add_place_action.dart';
 import 'package:btc_map/src/ui/widgets/merchant_details_sheet.dart';
 import 'package:btc_map/src/ui/widgets/merchant_list_sheet.dart';
 
 class MapScreen extends StatefulWidget {
-  const MapScreen({super.key});
+  const MapScreen({super.key, this.addPlace});
+
+  final MapAddPlaceAction? addPlace;
 
   @override
   State<MapScreen> createState() => _MapScreenState();
@@ -31,6 +34,17 @@ class _MapScreenState extends State<MapScreen> {
         flexibleSpace: BullTopBar(
           title: context.btcMapLoc.merchantMapTitle,
           onBack: () => context.pop(),
+          actionIcon: widget.addPlace == null
+              ? null
+              : Icons.add_location_alt_outlined,
+          actionTooltip: widget.addPlace?.label(context),
+          onAction: switch (widget.addPlace) {
+            final addPlace? => () => addPlace.open(
+              context,
+              context.read<MapCubit>().state.viewport,
+            ),
+            null => null,
+          },
         ),
       ),
       body: BlocConsumer<MapCubit, MapState>(

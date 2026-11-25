@@ -165,6 +165,7 @@ translations:
 	@(cd features/announcements && fvm flutter gen-l10n)
 	@(cd features/bitcoin_price && fvm flutter gen-l10n)
 	@(cd features/btc_map && fvm flutter gen-l10n)
+	@(cd features/add_place && fvm flutter gen-l10n)
 	@(cd features/bull_exchange && fvm flutter gen-l10n)
 	@(cd features/logs && fvm flutter gen-l10n)
 	@(cd features/quick_actions && fvm flutter gen-l10n)

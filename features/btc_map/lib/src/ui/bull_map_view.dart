@@ -10,6 +10,8 @@ import 'package:flutter/services.dart' show PlatformException;
 import 'package:maplibre_gl/maplibre_gl.dart';
 import 'package:material_ui/material_ui.dart';
 
+import 'zoom_to_fit.dart';
+
 import 'map_marker_index.dart';
 
 class BullMapController {
@@ -26,6 +28,7 @@ class BullMapView extends StatefulWidget {
     required this.onMerchantTap,
     required this.onViewportChanged,
     this.initialCenter,
+    this.initialBounds,
     this.onPreparingChanged,
   });
 
@@ -34,6 +37,9 @@ class BullMapView extends StatefulWidget {
 
   /// Used once, unless the user has already touched the map or picked a place.
   final GeoPoint? initialCenter;
+
+  /// An exact area to open on, zoom included; takes precedence over [initialCenter].
+  final GeoBounds? initialBounds;
 
   final ValueChanged<Merchant> onMerchantTap;
   final ValueChanged<bool>? onPreparingChanged;
@@ -160,10 +166,20 @@ class _BullMapViewState extends State<BullMapView> {
     );
   }
 
+  /// [BullMapView.initialBounds] as a centre and the zoom that fits it at this map's size. Not newLatLngBounds: iOS fits bounds to the native view, which is still unsized when the map is created.
+  (GeoPoint, double)? _initialArea() {
+    final bounds = widget.initialBounds;
+    final box = context.findRenderObject();
+    if (bounds == null || box is! RenderBox || !box.hasSize) return null;
+    return (bounds.center, zoomToFit(bounds, box.size));
+  }
+
   Future<void> _centerInitially() async {
     final map = _map;
-    final center = widget.initialCenter;
-    if (!mounted || _initialCenterConsumed || map == null || center == null) {
+    if (!mounted) return;
+    final (center, zoom) =
+        _initialArea() ?? (widget.initialCenter, _regionZoom);
+    if (_initialCenterConsumed || map == null || center == null) {
       return;
     }
     _initialCenterConsumed = true;
@@ -171,7 +187,7 @@ class _BullMapViewState extends State<BullMapView> {
       await map.moveCamera(
         CameraUpdate.newLatLngZoom(
           LatLng(center.latitude, center.longitude),
-          _regionZoom,
+          zoom,
         ),
       );
     } on PlatformException {

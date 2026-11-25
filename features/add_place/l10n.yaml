@@ -1,0 +1,6 @@
+arb-dir: lib/l10n
+template-arb-file: add_place_en.arb
+output-localization-file: add_place_localizations.dart
+output-class: AddPlaceLocalizations
+output-dir: lib/generated/l10n
+nullable-getter: false

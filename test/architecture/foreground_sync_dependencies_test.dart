@@ -25,7 +25,9 @@ import 'package:path/path.dart' as p;
 // Sell and Pay use the public Coins and Fees UI inside Bull Exchange.
 // Settings consumes Receive's disclaimer and typed Wallet Import navigation.
 // Wallet Import owns mnemonic input and scanning; Wallet uses its data types.
+// Add Place (reviewed 2026-11-25) uses BTC Map's published map view, location types and add-place action for its pin picker.
 const _allowedTargets = <String, String>{
+  'add_place': 'btc_map',
   'address_view': 'label_editor scanning silent',
   'ark': 'scanning',
   'all_seed_view': 'access',

@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:btc_map/src/domain/entities/geo_bounds.dart';
 import 'package:btc_map/src/domain/entities/geo_point.dart';
 import 'package:btc_map/src/domain/entities/merchant.dart';
 import 'package:btc_map/src/ui/bull_map_view.dart';
@@ -393,5 +394,46 @@ void main() {
     await pump(tester, region);
     expect(platform.focuses, hasLength(1));
     expect(platform.moves, isEmpty);
+  });
+
+  testWidgets('opens on an exact area at the zoom that fits it', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      wrapWithTheme(
+        BullMapView(
+          merchants: const [],
+          controller: controller,
+          initialCenter: region,
+          initialBounds: GeoBounds(
+            south: 9.165,
+            west: -83.74,
+            north: 9.169,
+            east: -83.738,
+          ),
+          onMerchantTap: (_) {},
+          onViewportChanged: (_) {},
+        ),
+      ),
+    );
+    platform.created?.call(0);
+    await tester.pump();
+
+    // Centre and zoom, worked out from the 800x600 test view: iOS cannot fit
+    // bounds while its native view is still unsized.
+    final move = switch (platform.moves.single) {
+      [final String kind, [final num lat, final num lon], final num zoom] => (
+        kind,
+        lat,
+        lon,
+        zoom,
+      ),
+      final other => fail('unexpected camera move $other'),
+    };
+    expect(move.$1, 'newLatLngZoom');
+    expect(move.$2, closeTo(9.167, 1e-9));
+    expect(move.$3, closeTo(-83.739, 1e-9));
+    // The tall, narrow area is limited by the view's height.
+    expect(move.$4, closeTo(16.6679, 0.0001));
   });
 }

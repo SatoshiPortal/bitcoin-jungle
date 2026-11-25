@@ -95,6 +95,7 @@ import 'package:get_it/get_it.dart';
 import 'package:bull_logs/bull_logs.dart';
 import 'package:bull_logger/bull_logger.dart';
 import 'package:btc_map/btc_map.dart';
+import 'package:add_place/add_place.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:secrets/secrets.dart' hide Language;
 import 'package:spend/setup.dart' show SpendCatalog;
@@ -433,7 +434,8 @@ class AppLocator {
       dispose: (settings) => settings.close(),
     );
     const LogsFeature().setup(locator);
-    BtcMapFeature.setup(locator);
+    // An "add a place" button on the map.
+    BtcMapFeature.setup(locator, addPlace: AddPlaceFeature.addPlaceAction);
     locator.registerLazySingleton<BitcoinPriceFeature>(
       () => BitcoinPriceFeature.mount(
         environment: locator<ActiveEnvironmentReader>(),

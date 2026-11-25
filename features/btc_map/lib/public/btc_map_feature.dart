@@ -6,7 +6,10 @@ import 'package:path_provider/path_provider.dart';
 import '../generated/l10n/btc_map_localizations.dart';
 import '../src/bull_map.dart';
 import '../src/map_locator.dart';
+import '../src/ui/map_add_place_action.dart';
 import '../src/ui/map_router.dart';
+
+export '../src/ui/map_add_place_action.dart' show MapAddPlaceAction;
 
 /// Application-shell composition for the BTC Map feature.
 abstract final class BtcMapFeature {
@@ -14,7 +17,9 @@ abstract final class BtcMapFeature {
     BullMap.init(cacheDirectory: (await getApplicationCacheDirectory()).path);
   }
 
-  static void setup(GetIt locator) => MapLocator.setup(locator);
+  /// [addPlace] adds an "add a place" button to the map.
+  static void setup(GetIt locator, {MapAddPlaceAction? addPlace}) =>
+      MapLocator.setup(locator, addPlace: addPlace);
 
   static String get routeName => MapRouter.name;
 

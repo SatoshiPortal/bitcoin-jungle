@@ -1,0 +1,159 @@
+{
+  "@@locale": "en",
+  "addPlaceTitle": "Add a place",
+  "@addPlaceTitle": {
+    "description": "Title of the screen and tooltip of the map button to suggest a new place"
+  },
+  "pickLocationHint": "Move the map so the pin is on the place",
+  "@pickLocationHint": {
+    "description": "Instruction on the location picker: the pin stays in the middle and the user moves the map"
+  },
+  "useThisLocation": "Use this location",
+  "@useThisLocation": {
+    "description": "Button that confirms the pin position"
+  },
+  "placeLocation": "Location",
+  "@placeLocation": {
+    "description": "Label above the chosen coordinates"
+  },
+  "changeLocation": "Change",
+  "@changeLocation": {
+    "description": "Button that goes back to the location picker"
+  },
+  "placeName": "Business name",
+  "@placeName": {
+    "description": "Label of the business name field"
+  },
+  "placeCategory": "Category",
+  "@placeCategory": {
+    "description": "Label above the category choices"
+  },
+  "categoryRestaurants": "Restaurants",
+  "@categoryRestaurants": {
+    "description": "BTC Map category"
+  },
+  "categoryShopping": "Shopping",
+  "@categoryShopping": {
+    "description": "BTC Map category"
+  },
+  "categoryGroceries": "Groceries",
+  "@categoryGroceries": {
+    "description": "BTC Map category"
+  },
+  "categoryCoffee": "Coffee",
+  "@categoryCoffee": {
+    "description": "BTC Map category"
+  },
+  "categoryAtms": "ATMs",
+  "@categoryAtms": {
+    "description": "BTC Map category: bitcoin ATMs"
+  },
+  "categoryHotels": "Hotels",
+  "@categoryHotels": {
+    "description": "BTC Map category"
+  },
+  "categoryBeauty": "Beauty salons",
+  "@categoryBeauty": {
+    "description": "BTC Map category: beauty salons"
+  },
+  "categoryOther": "Other",
+  "@categoryOther": {
+    "description": "Category choice that lets the user type their own"
+  },
+  "placeOtherCategory": "Category name",
+  "@placeOtherCategory": {
+    "description": "Label of the field for the user's own category"
+  },
+  "paymentMethods": "Accepted payments",
+  "@paymentMethods": {
+    "description": "Label above the payment method choices"
+  },
+  "paymentOnchain": "On-chain",
+  "@paymentOnchain": {
+    "description": "Payment method: on-chain bitcoin"
+  },
+  "paymentLightning": "Lightning",
+  "@paymentLightning": {
+    "description": "Payment method: Lightning"
+  },
+  "paymentNfc": "Lightning contactless (NFC)",
+  "@paymentNfc": {
+    "description": "Payment method: Lightning contactless (NFC card)"
+  },
+  "contactEmail": "Your email (optional)",
+  "@contactEmail": {
+    "description": "Label of the optional contact email field, used by BTC Map for follow-up questions"
+  },
+  "placeAddress": "Address (optional)",
+  "@placeAddress": {
+    "description": "Label of the optional address field"
+  },
+  "placeWebsite": "Website (optional)",
+  "@placeWebsite": {
+    "description": "Label of the optional website field"
+  },
+  "placePhone": "Phone (optional)",
+  "@placePhone": {
+    "description": "Label of the optional phone field"
+  },
+  "placeOpeningHours": "Opening hours (optional)",
+  "@placeOpeningHours": {
+    "description": "Label of the optional opening hours field"
+  },
+  "placeNotes": "Notes (optional)",
+  "@placeNotes": {
+    "description": "Label of the optional notes field"
+  },
+  "submitPlace": "Send",
+  "@submitPlace": {
+    "description": "Button that sends the place"
+  },
+  "placeSent": "Thanks! The place was sent.",
+  "@placeSent": {
+    "description": "Confirmation after sending a place"
+  },
+  "placeNameRequired": "Enter the business name",
+  "@placeNameRequired": {
+    "description": "Validation: name is empty"
+  },
+  "placeCategoryRequired": "Choose a category",
+  "@placeCategoryRequired": {
+    "description": "Validation: no category, or Other without text"
+  },
+  "paymentMethodRequired": "Choose at least one payment method",
+  "@paymentMethodRequired": {
+    "description": "Validation: no payment method chosen"
+  },
+  "contactEmailInvalid": "Enter a valid email",
+  "@contactEmailInvalid": {
+    "description": "Validation: email is empty or invalid"
+  },
+  "addPlaceUnavailable": "Adding places isn't available yet.",
+  "@addPlaceUnavailable": {
+    "description": "Shown when sending is not set up yet"
+  },
+  "addPlaceNetworkFailure": "Couldn't send the place. Check your connection and try again.",
+  "@addPlaceNetworkFailure": {
+    "description": "Error when the server could not be reached"
+  },
+  "zoomInToPick": "Zoom in until you can see the street",
+  "@zoomInToPick": {
+    "description": "Shown on the location picker until the map is zoomed in close enough to place the pin precisely"
+  },
+  "placeOtherCategoryRequired": "Enter the category name",
+  "@placeOtherCategoryRequired": {
+    "description": "Validation: Other was chosen but no category name typed"
+  },
+  "addPlaceRejected": "Couldn't send the place. Please try again later.",
+  "@addPlaceRejected": {
+    "description": "Error when the server received the place but did not accept it"
+  },
+  "addressLookingUp": "Looking up the address…",
+  "@addressLookingUp": {
+    "description": "Shown under the address field while the address at the pin is looked up"
+  },
+  "addressSuggestedHint": "Suggested from the pin. Change it if it's not right.",
+  "@addressSuggestedHint": {
+    "description": "Shown under the address field once it was filled in from the pin"
+  }
+}
