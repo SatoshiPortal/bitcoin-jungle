@@ -2,6 +2,7 @@ import 'package:btc_map/src/domain/usecases/load_cached_merchants_usecase.dart';
 import 'package:btc_map/src/domain/usecases/sync_merchants_usecase.dart';
 import 'package:btc_map/src/map_types.dart';
 import 'package:btc_map/src/presentation/map_cubit.dart';
+import 'package:btc_map/src/ui/map_add_place_action.dart';
 import 'package:get_it/get_it.dart';
 
 import 'data/ip_map_location_repository.dart';
@@ -10,7 +11,11 @@ import 'domain/usecases/get_initial_map_center_usecase.dart';
 import 'domain/usecases/select_merchants_usecase.dart';
 
 final class MapLocator {
-  static void setup(GetIt locator) {
+  static void setup(GetIt locator, {MapAddPlaceAction? addPlace}) {
+    // The app's add-place action, read by the map route.
+    if (addPlace != null) {
+      locator.registerSingleton<MapAddPlaceAction>(addPlace);
+    }
     locator.registerFactory<MapCubit>(() {
       final session = BullMap.open();
       return MapCubit(
