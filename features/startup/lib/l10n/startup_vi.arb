@@ -32,7 +32,7 @@
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
   "appStartupErrorMessage": "Không thể khởi động ứng dụng. Hãy thử đóng hoàn toàn ứng dụng và khởi động lại. Nếu lỗi vẫn tiếp diễn, hãy liên hệ hỗ trợ và gửi nhật ký của bạn.",
-  "appStartupContactSupportMessage": "Liên hệ hỗ trợ tại app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Liên hệ hỗ trợ qua WhatsApp",
   "logsShareOptionExport": "Xuất",
   "logsExportedMessage": "Nhật ký đã được xuất thành công",
   "logsExportFailedMessage": "Xuất nhật ký thất bại",

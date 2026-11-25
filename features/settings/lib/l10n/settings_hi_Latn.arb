@@ -342,5 +342,6 @@
   "notificationsTitle": "Notifications",
   "openSystemSettings": "System settings kholein",
   "permissionsTitle": "Anumatiyan",
-  "settingsSearchPermissionsKeywords": "notifications|background kaam|battery|alerts"
+  "settingsSearchPermissionsKeywords": "notifications|background kaam|battery|alerts",
+  "supportWhatsAppDefaultMessage": "Namaste! Mujhe Bitcoin Jungle Wallet mein madad chahiye"
 }

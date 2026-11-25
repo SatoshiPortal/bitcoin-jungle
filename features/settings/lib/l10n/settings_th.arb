@@ -311,5 +311,6 @@
   "notificationsTitle": "การแจ้งเตือน",
   "openSystemSettings": "เปิดการตั้งค่าระบบ",
   "permissionsTitle": "สิทธิ์",
-  "settingsSearchPermissionsKeywords": "การแจ้งเตือน|งานเบื้องหลัง|แบตเตอรี่|การเตือน"
+  "settingsSearchPermissionsKeywords": "การแจ้งเตือน|งานเบื้องหลัง|แบตเตอรี่|การเตือน",
+  "supportWhatsAppDefaultMessage": "สวัสดีครับ/ค่ะ ต้องการความช่วยเหลือเรื่อง Bitcoin Jungle Wallet"
 }

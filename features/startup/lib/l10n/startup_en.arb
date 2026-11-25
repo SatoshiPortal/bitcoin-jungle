@@ -73,7 +73,7 @@
   "@appInitErrorDetailsToggle": {
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
-  "appStartupContactSupportMessage": "Contact support at app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Contact support on WhatsApp",
   "@appStartupContactSupportMessage": {
     "description": "Message shown on the app startup error screen pointing to support"
   },

@@ -64,7 +64,7 @@
   "@appInitErrorDetailsToggle": {
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
-  "appStartupContactSupportMessage": "app.bullbitcoin.com/support에서 지원팀에 문의하세요",
+  "appStartupContactSupportMessage": "WhatsApp으로 고객 지원에 문의하세요",
   "logsShareOptionExport": "내보내기",
   "logsExportedMessage": "로그를 성공적으로 내보냈습니다",
   "logsExportFailedMessage": "로그 내보내기에 실패했습니다",

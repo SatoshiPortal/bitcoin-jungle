@@ -40,7 +40,7 @@
   "@appInitErrorDetailsToggle": {
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
-  "appStartupContactSupportMessage": "Kontaktieren Sie die Kundenbetreuung unter app.bullbitcoin.com/support.",
+  "appStartupContactSupportMessage": "Kontaktiere den Support über WhatsApp",
   "deleteLogsTitle": "Logs löschen",
   "logsDeletedMessage": "Logs gelöscht",
   "appInitErrorTitle": "App konnte nicht gestartet werden",

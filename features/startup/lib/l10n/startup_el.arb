@@ -64,7 +64,7 @@
   "@appInitErrorDetailsToggle": {
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
-  "appStartupContactSupportMessage": "Επικοινωνήστε με την υποστήριξη στο app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "Επικοινωνήστε με την υποστήριξη στο WhatsApp",
   "logsShareOptionExport": "Εξαγωγή",
   "logsExportedMessage": "Τα αρχεία καταγραφής εξήχθησαν επιτυχώς",
   "logsExportFailedMessage": "Αποτυχία εξαγωγής αρχείων καταγραφής",

@@ -128,5 +128,6 @@
   "notificationsTitle": "Thông báo",
   "openSystemSettings": "Mở cài đặt hệ thống",
   "permissionsTitle": "Quyền",
-  "settingsSearchPermissionsKeywords": "thông báo|tác vụ nền|pin|cảnh báo"
+  "settingsSearchPermissionsKeywords": "thông báo|tác vụ nền|pin|cảnh báo",
+  "supportWhatsAppDefaultMessage": "Xin chào! Tôi cần trợ giúp về Bitcoin Jungle Wallet"
 }

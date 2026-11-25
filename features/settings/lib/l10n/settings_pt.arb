@@ -158,5 +158,6 @@
   "notificationsTitle": "Notificações",
   "openSystemSettings": "Abrir definições do sistema",
   "permissionsTitle": "Permissões",
-  "settingsSearchPermissionsKeywords": "notificações|tarefas em segundo plano|bateria|alertas"
+  "settingsSearchPermissionsKeywords": "notificações|tarefas em segundo plano|bateria|alertas",
+  "supportWhatsAppDefaultMessage": "Olá! Preciso de ajuda com a Bitcoin Jungle Wallet"
 }

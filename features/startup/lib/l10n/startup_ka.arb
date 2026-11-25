@@ -32,7 +32,7 @@
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
   "appStartupErrorMessage": "აპის გაშვება ვერ მოხერხდა. სცადეთ მისი სრულად დახურვა და თავიდან გაშვება. თუ შეცდომა გაგრძელდა, დაუკავშირდით მხარდაჭერას და გააზიარეთ ლოგები.",
-  "appStartupContactSupportMessage": "დაუკავშირდით მხარდაჭერას მისამართზე app.bullbitcoin.com/support",
+  "appStartupContactSupportMessage": "დაუკავშირდით მხარდაჭერას WhatsApp-ით",
   "logsShareOptionExport": "ექსპორტი",
   "logsExportedMessage": "ჟურნალები წარმატებით ექსპორტირებულია",
   "logsExportFailedMessage": "ჟურნალების ექსპორტი ვერ მოხერხდა",

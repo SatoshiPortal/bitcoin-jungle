@@ -64,7 +64,7 @@
   "@appInitErrorDetailsToggle": {
     "description": "Label on the collapsed section that reveals the raw exception text"
   },
-  "appStartupContactSupportMessage": "app.bullbitcoin.com/support adresinden destek ile iletişime geçin",
+  "appStartupContactSupportMessage": "WhatsApp üzerinden destekle iletişime geçin",
   "logsShareOptionExport": "Dışa Aktar",
   "logsExportedMessage": "Kayıtlar başarıyla dışa aktarıldı",
   "logsExportFailedMessage": "Kayıtlar dışa aktarılamadı",

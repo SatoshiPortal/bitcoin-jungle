@@ -128,5 +128,6 @@
   "notificationsTitle": "Ծանուցումներ",
   "openSystemSettings": "Բացել համակարգի կարգավորումները",
   "permissionsTitle": "Թույլտվություններ",
-  "settingsSearchPermissionsKeywords": "ծանուցումներ|ֆոնային առաջադրանքներ|մարտկոց|ազդանշաններ"
+  "settingsSearchPermissionsKeywords": "ծանուցումներ|ֆոնային առաջադրանքներ|մարտկոց|ազդանշաններ",
+  "supportWhatsAppDefaultMessage": "Բարև։ Ինձ օգնություն է պետք Bitcoin Jungle Wallet-ի հետ"
 }

@@ -311,5 +311,6 @@
   "notificationsTitle": "Ειδοποιήσεις",
   "openSystemSettings": "Άνοιγμα ρυθμίσεων συστήματος",
   "permissionsTitle": "Άδειες",
-  "settingsSearchPermissionsKeywords": "ειδοποιήσεις|εργασίες παρασκηνίου|μπαταρία|ειδοποιήσεις πληρωμών"
+  "settingsSearchPermissionsKeywords": "ειδοποιήσεις|εργασίες παρασκηνίου|μπαταρία|ειδοποιήσεις πληρωμών",
+  "supportWhatsAppDefaultMessage": "Γεια σας! Χρειάζομαι βοήθεια με το Bitcoin Jungle Wallet"
 }

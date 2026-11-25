@@ -311,5 +311,6 @@
   "notificationsTitle": "اعلان‌ها",
   "openSystemSettings": "باز کردن تنظیمات سیستم",
   "permissionsTitle": "مجوزها",
-  "settingsSearchPermissionsKeywords": "اعلان‌ها|وظایف پس‌زمینه|باتری|هشدارها"
+  "settingsSearchPermissionsKeywords": "اعلان‌ها|وظایف پس‌زمینه|باتری|هشدارها",
+  "supportWhatsAppDefaultMessage": "سلام! برای Bitcoin Jungle Wallet به کمک نیاز دارم"
 }

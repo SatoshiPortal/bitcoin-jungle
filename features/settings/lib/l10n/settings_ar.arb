@@ -311,5 +311,6 @@
   "notificationsTitle": "الإشعارات",
   "openSystemSettings": "فتح إعدادات النظام",
   "permissionsTitle": "الأذونات",
-  "settingsSearchPermissionsKeywords": "الإشعارات|المهام في الخلفية|البطارية|التنبيهات"
+  "settingsSearchPermissionsKeywords": "الإشعارات|المهام في الخلفية|البطارية|التنبيهات",
+  "supportWhatsAppDefaultMessage": "مرحبًا! أحتاج إلى مساعدة في Bitcoin Jungle Wallet"
 }

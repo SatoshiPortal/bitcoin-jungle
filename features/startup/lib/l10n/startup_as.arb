@@ -66,7 +66,7 @@
   "@coreScreensPageNotFound": {
     "description": "Error message shown when a page/route is not found"
   },
-  "appStartupContactSupportMessage": "app.bullbitcoin.com/support ত সহায়ৰ সৈতে যোগাযোগ কৰক",
+  "appStartupContactSupportMessage": "WhatsApp-ত সহায়তাৰ সৈতে যোগাযোগ কৰক",
   "logsShareOptionExport": "ৰপ্তানি কৰক",
   "logsExportedMessage": "লগসমূহ সফলভাৱে ৰপ্তানি কৰা হৈছে",
   "logsExportFailedMessage": "লগ ৰপ্তানি কৰিবলৈ বিফল হৈছে"
